@@ -17,7 +17,7 @@ pedestrians, cars, signals, and cyclists, and to make decisions in real time. Th
 
 ## Deep learning with LiDAR data
 
-It is possible to use deep learning methods with LiDAR. Deep learning is a type of machine
+It is possible to use deep learning methods with LIDAR. Deep learning is a type of machine
 learning that uses neural networks to learn complex patterns and make predictions based on
 large amounts of data. To take advantage of faster, and newer neural network architectures,
 the methods have been used to convert the point clouds or a Birds Eye View (BEV).
