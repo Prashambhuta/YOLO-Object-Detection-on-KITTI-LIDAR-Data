@@ -1,0 +1,17 @@
+# Ultralytics YOLO 🚀, AGPL-3.0 license
+# KITTI DATASET
+
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: ../../../../data  # dataset root dir
+train:
+  - training/velodyne
+  - training/label_2
+val: training/velodyne
+test: testing/velodyne
+
+#
+names:
+  0: Car
+  1: Pedestrian
+  2: Cyclist
